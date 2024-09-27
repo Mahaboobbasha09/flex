@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0%;
+        }
+        .child1{
+            display: flex;
+            justify-content: space-between;
+            background-color: #f6f3f3;
+            position: fixed;
+            top: 0%;
+            padding-top: 1%;
+            width: 100vw;
+            height: 5vh;
+            z-index: 2;
+        }
+        .child1 a{
+            text-decoration: none;
+            color: black;
+            letter-spacing: 3px;
+        }
+        .a1{
+            padding-top: 0%;
+            padding-left: 1%;
+            padding-right: 1%;
+
+        }
+        a:hover{
+            height: 4vh;
+            width: 15vw;
+            background-color: aqua;
+        }
+        .bg{
+           background-image: url(hamburger.jpg);
+           height: 100vh;
+           width: 100%;
+           display: flex;
+           align-items: flex-end;
+           z-index: 1;
+        }
+        .bg h1{
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+        .about{
+            display: flex;
+            justify-content: center;
+
+        }
+        .child{
+            width: 100vw;
+            height: 100vh;
+            flex-basis: 30%;
+        }
+        .child img{
+            margin-top: 10%;
+            height: 80%;
+            width: 90%;
+            border-radius: 3px;
+            box-shadow: 0px 0px 2px 0px black;
+        }
+        .chid2{
+            height: 60vh;
+            width: 30vw;
+            flex-basis: 20%;
+            justify-content: center;
+        }
+        .child2 p{
+            height: 10vh;
+            width: 50vw;
+            text-align: justify;
+            letter-spacing: 2px;
+        }
+        .h1{
+            margin-top: 10%;
+            text-align: center;
+            font-family: "Rajdhani", "sans-serif";
+            letter-spacing: 5px;
+        }
+        .p1{
+            text-align: center;
+            font-family: Rajdhani,sans-serif;
+            letter-spacing: 5px;
+        }
+        .menu{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+        }
+        .child3{
+            flex-basis: 40%;
+            margin: 5% 10%;
+        }
+        .child4 img{
+            height: 70%;
+            width: 100%;
+            border-radius: 3px;
+            box-shadow: 0px 0px 2px 0px black;
+            margin:35% 10%;
+        }
+        .child3 p{
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 300;
+            letter-spacing: 5px;
+            color: black;
+        }
+        .child3 h4{
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .child3 h1{
+            text-align: center;
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .child5,form{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .child5 h1{
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .col{
+            color: #607d8b !important;
+        }
+        .b1{
+            padding-top: 16px !important;
+            padding-bottom: 16px !important;
+        }
+        .b0{
+            padding: 8px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="child1">
+                <a href="#home">Gourmet au Catering</a>
+                <div class="a1">
+                    <a href="#about" >About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#menu">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+            </nav>
+        </div>
+        <hr>
+    </header>
+   
+    <section>
+        <div class="bg" id="home">
+          <h1>Le Catering</h1>
+        </div><br><br>
+    </section>
+    <section class="about">
+        <div class="child">
+            <img src="second.jpg" alt="se">
+        </div>
+        <div class="child2" >
+            <h1 id="about" class="h1">About Catering</h1><br>
+            <h4 class="p1">Tradition since 1889</h4><br>
+            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p><br><br>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </section><br>
+    <hr>
+    <section>
+        <div class="menu" id="menu">
+            <div class="child3">
+                <h1 class="m">Menu</h1>
+                <br>
+                <h4>Bread Basket</h4>
+                <br>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <br>
+                <h4>Honey Almond Granola with Fruits</h4>
+                <br>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <br>
+                <h4>Belgian Waffle</h4>
+                <br>
+                <p>Vanilla flavored batter with malted flour 7.50</p>
+                <br>
+                <h4>Scrambled eggs</h4>
+                <br>
+                <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <br>
+                <h4>Blueberry Pancakes</h4>
+                <br>
+                <p>With syrup, butter and lots of berries 8.50</p>
+            </div>
+            <div class="child4">
+            <img src="third.jpg" alt="menu">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <br>
+    <br>
+    <section>
+        <div class="contact">
+            <div class="child5">
+                <h1 id="contact">Contact</h1>
+                <br>
+                <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+                <br>
+                <p class="col"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p><br>
+                <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            </div><br>
+            <form action="submit" target="_blank">
+                <div class="b0 b1"><input type="text" name="text" id="text" placeholder="Name"></div>
+                <div class="b0 b2"><input type="number" name="hmp" id="hmp" placeholder="How Many People"></div>
+                <div class="b0 b3"><input type="datetime-local"  ></div>
+                <div class="b0 b4"><input type="text" name="msg" id="msg" placeholder="Message/Special request"></div><br>
+                <br>
+                <div><button type="submit">Send Message</button></div>
+            </form>
+            <br>
+            <br>
+        </div>
+    </section>
+</body>
+</html>
